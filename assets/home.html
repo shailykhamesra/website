@@ -7,14 +7,17 @@
     <link rel="stylesheet" type="text/css" href="/Users/shailykhamesra/Desktop/website1/assets/css/index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   </head>
   <body id="myPage">
   	<div class="display1">  
       <div class="top">
-      	<a href="/Users/shailykhamesra/Desktop/website1/assets/work.html" class="top1">work</a>
-        <a href="/Users/shailykhamesra/Desktop/website1/assets/price.html" class="top1">price</a>
-        <a href="/Users/shailykhamesra/Desktop/website1/assets/contact.html" class="top1">contact</a>
+      	<a href="/Users/shailykhamesra/Desktop/website1/assets/work.html" class="top1" onclick="index_work()">work</a>
+        <a href="/Users/shailykhamesra/Desktop/website1/assets/price.html" class="top1" onclick="index_price()">price</a>
+        <a href="/Users/shailykhamesra/Desktop/website1/assets/contact.html" class="top1" onclick="index_contact()">contact</a>
       </div>
+      <div id="wrapper">
       <div id="container" >
         <img class="container1" src="/Users/shailykhamesra/Desktop/website1/assets/images/sailboat.jpg" style="width:100%;min-height:350px; max-height:600px";>
   	  </div>
@@ -44,11 +47,6 @@
           <p>Fixer</p>
         </div>
       </div>
-      <div id="wrapper">
-       <a onclick="index_home()"></a>
-       <a onclick="index_about()"></a>
-       <a onclick="index_products()"></a>
-       <a onclick="index_contact()"></a>
       <div class="row">
         <h2>OUR WORK</h2>
         <div class="row1" id="row2">
@@ -186,5 +184,6 @@
     <i class="fa fa-facebook-f" style="color:blue"></i>
     <i class="fa fa-instagram" aria-hidden="true"></i>
   </div>
+</div>
   </body>
 </html>
