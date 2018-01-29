@@ -1,9 +1,9 @@
 function changeImage() {
     var image = document.getElementById('myImage');
     if (image.src.match("bulbon")) {
-        image.src = "/Users/shailykhamesra/Desktop/website1/assets/images/pic_bulboff.gif";
+        image.src = "assets/images/pic_bulboff.gif";
     } else {
-        image.src = "/Users/shailykhamesra/Desktop/website1/assets/images/pic_bulbon.gif";
+        image.src = "assets/images/pic_bulbon.gif";
     }
 }
 function myForm() {
