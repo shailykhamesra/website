@@ -10,7 +10,7 @@ function myForm() {
   var form = document.getElementById('form1');
   form.onsubmit=function(e) {
   e.preventDefault();
-  form.innerHTML= 'Thankyou, ' + form.fullname.value + '.  Your feedback is valuable !';
+  form.innerHTML= 'Thankyou, ' + form.fullname.value + '.  Your feedback " ' + form.feedback.value + ' " ';
   form.reset();
   }
 }

@@ -166,15 +166,15 @@ tr:nth-child(even) {
     padding-top: 90px;
     padding-bottom: 92px; 
   }
-  .blank{
-	background: black;
-	color:white;
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-  }
   .row{
 	text-align: center;
+  }
+  .blank{
+    background: black;
+    color:white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 @media only screen and (max-device-width: 1070px){
