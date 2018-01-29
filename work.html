@@ -3,6 +3,9 @@
   <head>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <script type="text/javascript" src="assets/javascripts/script.js"></script>
+    <script type="text/javascript" src="assets/javascripts/work.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   </head>
   <body id="index2">
     <div class="top">
@@ -34,7 +37,7 @@
         <h6>Blablabla</h6>
       </div>
     </div>
-    <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()"> My Work Is Fantastic ! Come Join Our Team .</h1>
+    <h1 id="demo"  > My Work Is Fantastic ! Come Join Our Team .</h1>
     <h2>Team joining Form</h2>
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Join</button>
     <div id="id01" class="modal">
@@ -59,3 +62,8 @@
     </div>  
   </body>
 </html>
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    var work = new WB.Work();
+  });
+</script>

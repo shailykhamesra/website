@@ -13,9 +13,9 @@
   <body id="myPage">
   	<div class="display1">  
       <div class="top">
-      	<a class="top1" onclick="index_work()">work</a>
-        <a href="price.html" class="top1" onclick="index_price()">price</a>
-        <a href="contact.html" class="top1" onclick="index_contact()">contact</a>
+      	<a class="top1" id="work" >work</a>
+        <a class="top1" id="price">price</a>
+        <a class="top1" id="contact">contact</a>
       </div>
       <div id="wrapper">
         <div id="container" >
@@ -75,14 +75,15 @@
           <h6>Blablabla</h6>
         </div>
       </div>
-    
+      <h1 id="demo"  > My Work Is Fantastic ! Come Join Our Team .</h1>
+      </div>
       <div id="wrapper-price"> 
         <div class="pricing1" >
           <div class="off">
             <h1>ertyu</h1>
           </div>
         </div>
-        <h1>Pricing</h1>
+        <h1 id="cent">Pricing</h1>
         <marquee behavior="alternate"><h3>Choose a pricing plan that fits your needs.</h3></marquee>
         <div class="block">
           <div class="block1">
@@ -161,6 +162,7 @@
           </table>
           </div>
         </div>
+        <img id="myImage" src="assets/images/pic_bulboff.gif">
       </div>
 
       <div id="wrapper-contact">
@@ -170,6 +172,19 @@
             <h3 class="con">CONTACT US</h3>
             <h2>CONTACT US</h2>
           </div>
+          <form id="form1">
+            <p>
+              <label>Your full name</label>:<br>
+              <input  id ="a" type="text" name="fullname">
+            </p>
+            <p>
+              <label>feedback</label>:<br>
+              <input id="b" type="text" name="feedback">
+            </p>
+            <p>
+              <input type="submit" value="submit" onclick="myForm()">
+            </p>
+          </form>
           <div class="address">
             <h3 class="address1">ADDRESS</h3>
             <p>Swing by for a cup of coffee, or whatever.</p>
@@ -186,7 +201,7 @@
         </div>
       </div>
       <div class="blank">
-        <h3>Follow us</h3>
+        <h3 id="follow">Follow us</h3>
         <i class="fa fa-twitter" aria-hidden="true"></i>
         <i class="fa fa-facebook-f" style="color:blue"></i>
         <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -194,3 +209,8 @@
     </div>
   </body>
 </html>
+<script type="text/javascript">
+  jQuery(document).ready(function(){
+    var home = new WB.Home();
+  });
+</script>
