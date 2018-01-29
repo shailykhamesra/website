@@ -1,0 +1,415 @@
+#myPage{
+  background-color: #fffacd;
+}
+#mypage2{
+  background-color: #fffacd;
+}
+#mypage3{
+  background-color: #fffacd;
+}
+#index2{
+  background-color: #fffacd;
+}
+.top1{
+	color:yellow;
+	padding:5px;
+}
+#team{
+  text-align: center;
+  padding-bottom: 50px;
+}
+#row{
+	border-radius: 50%;
+}
+.quater1{
+	float: left;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 150px; 
+}
+.top{
+	float: left;
+    width: 100%;
+	background: black;
+	color: white;
+}
+.row{
+	text-align: center;
+}
+.row1{
+	padding-top: 150px;
+	padding-bottom: 150px;
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+}
+.pricing{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.pricing1{
+	text-align: center;
+	padding-bottom: 70px;
+}
+.block1{
+	float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.colour{
+	background: black;
+	color:white;
+	padding:0px;
+}
+.colour2{
+	background: #D3D3D3;
+	color:white;
+	padding:0px;
+}
+.con{
+	color: #fffacd;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.colour1{
+	background:green;
+}
+
+.contact1{
+	text-align: left;
+	color: green;
+	text-decoration: underline;
+	padding-top: 60px;
+}
+.contact{
+	text-align: left;
+	color: green;
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+.address1{
+	padding-bottom:10px;
+}
+.phone{
+	padding-top:10px;
+}
+.mail{
+	padding-top:10px;
+}
+.url{
+	padding-top:40px;
+	width: 100%;
+	max-height: 650px;
+}
+.url1{
+	padding-top:40px;
+	width: 50%;
+	max-height: 350px;
+}
+#maplogo{
+	padding-top:10px;
+}
+.off{
+	padding-top:10px;
+	color: #fffacd;
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+@media only screen and (max-device-width: 2560px){
+	#row2{
+		padding-bottom: 165px;
+	}
+	.row1{
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 92px; 
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 1440px){
+	#row2{
+		padding-bottom: 92px;
+	}
+	.row1{
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 92px; 
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 1070px){
+	#row2{
+		padding-bottom: 10px;
+	}
+	.row1{
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 92px; 
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 1050px){
+	#row2{
+		padding-bottom: 20px;
+	}
+	.row1{
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 92px; 
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 1024px){
+	#row2{
+		padding-bottom: 20px;
+	}
+	.row1{
+    float: left;
+    width: 25%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 90px;
+    padding-bottom: 92px; 
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 980px){
+#container1{
+	width:100%;
+}	
+.quater1{
+	float: left;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.row1{
+    float: left;
+    width: 100%;
+    background: black;
+    color:white;
+    text-align: center; 
+    padding-top: 0px;
+    padding-bottom: 0px; 
+}
+.block1{
+	float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.url1{
+	padding-top:40px;
+	width: 100%;
+	max-height: 450px;
+}
+.row{
+	text-align: center;
+}
+}
+@media only screen and (max-device-width: 425px){
+.top1{
+	color:yellow;
+	width: 80%;
+	float: left;
+}
+#container1{
+	width:100%;
+}	
+.quater1{
+	padding-top: 0px;
+	padding-bottom: 0px;	
+    width: 100%;
+}
+.row1{
+	padding-top: 0px;
+	padding-bottom: 0px;
+    float: left;
+    width: 100%;
+    background: black;
+    color:white;
+    text-align: center; 
+}
+.block1{
+	float: left;
+    width: 100%;
+    text-align: center;
+}
+.blank{
+	background: black;
+	color:white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.url1{
+	padding-top:40px;
+	width: 100%;
+	max-height: 450px;
+}
+.row{
+	text-align: center;
+}
+}
+input[type=text], input[type=city] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
