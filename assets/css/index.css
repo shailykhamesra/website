@@ -146,7 +146,7 @@ tr:nth-child(even) {
 }
 @media only screen and (max-device-width: 2560px){
   #row2{
-	padding-bottom: 165px;
+	  padding-bottom: 165px;
   }
   .row1{
     float: left;
@@ -158,12 +158,12 @@ tr:nth-child(even) {
     padding-bottom: 92px; 
   }
   .row{
-	text-align: center;
+	  text-align: center;
   }
 }
 @media only screen and (max-device-width: 1440px){
   #row2{
-	padding-bottom: 92px;
+	  padding-bottom: 92px;
   }
   .row1{
     float: left;
@@ -175,7 +175,7 @@ tr:nth-child(even) {
     padding-bottom: 92px; 
   }
   .row{
-	text-align: center;
+	  text-align: center;
   }
   .blank{
     background: black;
@@ -187,7 +187,7 @@ tr:nth-child(even) {
 }
 @media only screen and (max-device-width: 1070px){
   #row2{
-	padding-bottom: 10px;
+	  padding-bottom: 10px;
   }
   .row1{
     float: left;
@@ -211,7 +211,7 @@ tr:nth-child(even) {
 }
 @media only screen and (max-device-width: 1050px){
   #row2{
-	padding-bottom: 20px;
+	  padding-bottom: 20px;
   }
   .row1{
     float: left;
@@ -321,7 +321,7 @@ tr:nth-child(even) {
     text-align: center; 
   }
   .block1{
-	 float: left;
+	  float: left;
     width: 100%;
     text-align: 
     er;
@@ -421,11 +421,11 @@ span.psw {
   cursor: pointer;
 }
 @media screen and (max-width: 300px) {
-    span.psw {
-       display: block;
-       float: none;
-    }
-    .cancelbtn {
-       width: 100%;
-    }
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
 }
