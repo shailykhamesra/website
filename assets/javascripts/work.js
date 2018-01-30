@@ -10,7 +10,7 @@ WB.Work.prototype= {
     this.joinb();
     this.myForm2();
   },
-  
+
   mouseOver:function () {
     document.getElementById("demo").onmouseover = function(){
       document.getElementById("demo").style.color = "red";
@@ -24,10 +24,10 @@ WB.Work.prototype= {
   },
 
   joinb:function (){
-    $('#join1').click(function(){
+    $('#index2 #join1').click(function(){
       document.getElementById('id01').style.display='block';
     });
-    $('#join').click(function(){
+    $('#con #join').click(function(){
       document.getElementById('id01').style.display='none';
       var modal = document.getElementById('id01');
       window.onclick = function(event) {
@@ -39,7 +39,7 @@ WB.Work.prototype= {
   },
 
   myForm2:function () {
-    $('#subm').click(function(){
+    $('#id01 #subm').click(function(){
       var form2 = document.getElementById('form2');
       form2.onsubmit=function(e) {
       e.preventDefault();

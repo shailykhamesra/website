@@ -15,7 +15,7 @@ WB.Home.prototype= {
   },
 
   changeImage:function() {
-    $('#myImage').click(function(){
+    $('#wrapper-price #myImage').click(function(){
       var image = document.getElementById('myImage');
         if (image.src.match("bulbon")) {
             image.src = "assets/images/pic_bulboff.gif";
@@ -26,7 +26,7 @@ WB.Home.prototype= {
     });
   },
   myForm:function() {
-    $('#test').click(function(){
+    $('#wrapper-contact #test').click(function(){
       var form = document.getElementById('form1');
       form.onsubmit=function(e) {
       e.preventDefault();
@@ -37,7 +37,7 @@ WB.Home.prototype= {
   },
 
   index_work:function (){
-    $('#work').click(function(){
+    $('#dis #work').click(function(){
       $('#wrapper').css('display', 'none');
       $('#wrapper-price').css('display', 'none');
       $('#wrapper-contact').css('display', 'none');
@@ -46,7 +46,7 @@ WB.Home.prototype= {
   },
 
   index_price:function (){
-    $('#price').click(function(){
+    $('#dis #price').click(function(){
       $('#wrapper').css('display', 'none');
       $('#wrapper-work').css('display', 'none');
       $('#wrapper-contact').css('display', 'none');
@@ -55,7 +55,7 @@ WB.Home.prototype= {
   },
 
   index_contact:function (){
-    $('#contact').click(function(){
+    $('#dis #contact').click(function(){
       $('#wrapper').css('display', 'none');
       $('#wrapper-price').css('display', 'none');
       $('#wrapper-work').css('display', 'none');
