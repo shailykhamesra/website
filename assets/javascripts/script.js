@@ -31,8 +31,10 @@ WB.Home.prototype= {
       var form = document.getElementById('form1');
       form.onsubmit=function(e) {
       e.preventDefault();
-      form.innerHTML= 'Thankyou, ' + form.fullname.value + '.  Your feedback " ' + form.feedback.value + ' " ';
-      form.reset();
+      var result = document.getElementById('result');
+      var result1= 'Thankyou, ' + form.fullname.value+ '.  Your feedback " ' + form.feedback.value + ' " ' ;
+      $(result).append(result1);
+      form.reset;
       }
     });
   },
@@ -75,3 +77,6 @@ WB.Home.prototype= {
     } 
   }
 }
+$(window).scroll(function(){
+    $(".top3").css("opacity", 1 - $(window).scrollTop() / 250);
+  });

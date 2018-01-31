@@ -144,6 +144,7 @@ tr:nth-child(even) {
 #follow{
   text-align: center;
 }
+
 @media only screen and (max-device-width: 2560px){
   #row2{
 	  padding-bottom: 165px;
@@ -428,4 +429,23 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
 }
