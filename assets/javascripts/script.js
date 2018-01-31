@@ -12,6 +12,7 @@ WB.Home.prototype= {
     this.HandleContact();
     this.mouseOver();
     this.mouseOut();
+    this.HandleHoverEffect();
   },
 
   HandleChangeImage:function() {
@@ -75,8 +76,19 @@ WB.Home.prototype= {
     document.getElementById("demo").onmouseout = function(){
       document.getElementById("demo").style.color = "black";
     } 
-  }
+  },
+  HandleHoverEffect:function(){
+    document.getElementById("myHeader").onscroll = function(){myFunction()};
+    window.onscroll = function() {myFunction()};
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } 
+      else {
+        header.classList.remove("sticky");
+      }
+    }
+  }     
 }
-$(window).scroll(function(){
-    $(".top3").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
