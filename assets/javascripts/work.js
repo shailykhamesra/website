@@ -8,7 +8,7 @@ WB.Work.prototype= {
     this.mouseOver();
     this.mouseOut();
     this.joinb();
-    this.myForm2();
+    this.SubmitForm2();
   },
 
   mouseOver:function () {
@@ -38,8 +38,8 @@ WB.Work.prototype= {
     });
   },
 
-  myForm2:function () {
-    $('#id01 #subm').click(function(){
+  SubmitForm2:function () {
+    $('#index2 #id01 #subm').click(function(){
       var form2 = document.getElementById('form2');
       form2.onsubmit=function(e) {
       e.preventDefault();

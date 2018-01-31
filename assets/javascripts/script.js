@@ -5,17 +5,17 @@ WB.Home = function () {
 } 
 WB.Home.prototype= {
   initialize:function() {
-    this.changeImage();
-    this.myForm();
-    this.index_work();
-    this.index_price();
-    this.index_contact();
+    this.HandleChangeImage();
+    this.HandleSubmitMyForm();
+    this.HandleWork();
+    this.HandlePrice();
+    this.HandleContact();
     this.mouseOver();
     this.mouseOut();
   },
 
-  changeImage:function() {
-    $('#wrapper-price #myImage').click(function(){
+  HandleChangeImage:function() {
+    $('#myPage #WrapperPrice #myImage').click(function(){
       var image = document.getElementById('myImage');
         if (image.src.match("bulbon")) {
             image.src = "assets/images/pic_bulboff.gif";
@@ -25,8 +25,9 @@ WB.Home.prototype= {
         }
     });
   },
-  myForm:function() {
-    $('#wrapper-contact #test').click(function(){
+  
+  HandleSubmitMyForm:function() {
+    $('#myPage #WrapperContact #test').click(function(){
       var form = document.getElementById('form1');
       form.onsubmit=function(e) {
       e.preventDefault();
@@ -36,30 +37,30 @@ WB.Home.prototype= {
     });
   },
 
-  index_work:function (){
+  HandleWork:function (){
     $('#dis #work').click(function(){
       $('#wrapper').css('display', 'none');
-      $('#wrapper-price').css('display', 'none');
-      $('#wrapper-contact').css('display', 'none');
-      $('#wrapper-work').css('display', 'block');
+      $('#WrapperPrice').css('display', 'none');
+      $('#WrapperContact').css('display', 'none');
+      $('#WrapperWork').css('display', 'block');
     });
   },
 
-  index_price:function (){
+  HandlePrice:function (){
     $('#dis #price').click(function(){
       $('#wrapper').css('display', 'none');
-      $('#wrapper-work').css('display', 'none');
-      $('#wrapper-contact').css('display', 'none');
-      $('#wrapper-price').css('display', 'block');
+      $('#WrapperWork').css('display', 'none');
+      $('#WrapperContact').css('display', 'none');
+      $('#WrapperPrice').css('display', 'block');
     });
   },
 
-  index_contact:function (){
+  HandleContact:function (){
     $('#dis #contact').click(function(){
       $('#wrapper').css('display', 'none');
-      $('#wrapper-price').css('display', 'none');
-      $('#wrapper-work').css('display', 'none');
-      $('#wrapper-contact').css('display', 'block');
+      $('#WrapperPrice').css('display', 'none');
+      $('#WrapperWork').css('display', 'none');
+      $('#WrapperContact').css('display', 'block');
     });
   },
   mouseOver:function () {
